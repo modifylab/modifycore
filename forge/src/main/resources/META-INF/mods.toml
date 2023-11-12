@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "${forgeloader_version}"
+license = "${license}"
+issueTrackerURL="https://github.com/ModifyLab/ModifyCore/issues"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${version}"
+displayName = "${mod_name}"
+
+displayURL="https://modifylab.com/mods/modifycore"
+
+logoFile = "modifycore-icon.png"
+authors = "${mod_author}"
+description = '''${description}'''
+
+[[dependencies.${mod_id}]]
+modId = "forge"
+mandatory = true
+versionRange = "${forgeloader_version}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_versionrange}"
+ordering = "NONE"
+side = "BOTH"
