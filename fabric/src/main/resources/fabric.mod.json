@@ -8,9 +8,9 @@
         "${mod_author}"
     ],
     "contact": {
-        "homepage": "https://modifylab.com/mods/modifycore",
-        "sources": "https://github.com/ModifyLab/ModifyCore",
-        "issues": "https://github.com/ModifyLab/ModifyCore/issues"
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/modifycore",
+        "sources": "https://github.com/modifylab/modifycore",
+        "issues": "https://github.com/modifylab/modifycore/issues"
     },
     "license": "Public Domain",
     "icon": "modifycore-icon.png",

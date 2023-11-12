@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle'
 }
 base {
-    archivesName = "${mod_id}-forge-${minecraft_version}"
+    archivesName = "${mod_id}-forge-neoforge-${minecraft_version}"
 }
 
 minecraft {
